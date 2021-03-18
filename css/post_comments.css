@@ -1,0 +1,117 @@
+#post_comments{
+      background-color: rgb(255,255,255);
+    margin: 10px;
+    box-shadow: 1px 1px 4px gray;
+    height: 530px;
+    padding: 0px;
+    text-align: left;
+    border-radius: 8px;
+}
+#post_comments>form{
+     background-color: rgb(200,200,200);
+    margin: 0px;
+    padding: 0px;
+    height: 530px;
+    border-radius: 8px;
+}
+#post_comments>form>#head{
+    overflow-y: scroll;
+    height: 460px;
+}
+#post_comments>form>#head>h2{
+    background-color:rgb(0,90,255);
+    margin: auto 0px ;
+    padding: 8px;
+    border-radius: 8px 8px 0px 0px;
+    color:whitesmoke;
+    font-size: 22px;
+}
+#post_comments>form>#btns>textarea{
+      border-width: 1px;
+    border-radius: 6px;
+    padding: 0px;
+    margin: 4px;
+    width: 230px;
+}
+#post_comments>form>#head>div{
+    background-color: white;
+    padding: 0px;
+    margin: 3px 0px 3px 0px;
+}
+#post_comments>form>#head>div>p{
+    font-size: 10px;
+    padding: 1px;
+    margin: 0px;
+}
+#post_comments>form>#head>div>label{
+        font-size: 14px;
+    margin: 0px;
+    padding-left: 4px;
+    font-weight: bold;
+    color:rgb(40,40,40);
+    font-style:oblique;
+}
+#post_comments>form>#btns{
+    background-color: white;
+    margin: 0px;
+    padding: 4px 2px 0px 2px;
+    border-width: 1px;
+    border-top-style: groove;
+    height: auto;
+    text-align: left;
+}
+#post_comments>form>#btns>button{
+    border-width: 0px;
+    background-color: white;
+    font-weight: 600;
+    font-size: 16px;
+    color:rgb(70,70,70);
+     border-width: 0px;
+    height: 30px;
+    text-align: left;
+     margin: 10px 0px;
+    padding: 4px 2px 0px 2px;
+}
+#post_comments>form>#btns>button:hover{
+    color:rgb(40,200,25);
+} 
+
+@media screen and (max-width:1000px){
+#post_comments{
+    height: 1200px;
+    margin-top: 40px;
+}
+#post_comments>form{
+      height: 1200px;
+}
+#post_comments>form>#head{
+    height: 1040px;
+}
+#post_comments>form>#head>h2{
+    font-size: 50px;
+    padding: 10px 0px 10px 20px;
+}
+#post_comments>form>#btns>textarea{
+    width: 70%;
+    height: 140px;
+     border-width: 3px;
+	 font-size:40px;
+}
+#post_comments>form>#head>div>p{
+      line-height: 40px;
+    font-size: 32px;
+    padding: 10px 10px 10px 20px;
+}
+#post_comments>form>#head>div>label{
+        font-size: 40px;
+    padding: 10px 0px 0px 20px;
+}
+#post_comments>form>#btns{
+   height: 200px;
+    padding: 20px 10px 10px 20px;
+}
+#post_comments>form>#btns>button{
+     font-size: 50px;
+    padding: 20px;
+}
+}

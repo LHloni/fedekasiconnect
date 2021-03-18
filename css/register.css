@@ -1,0 +1,195 @@
+#register_div,#success{
+    background-color: rgba(255,255,255,0.8);
+    text-align: left;
+    margin: 10px;
+    box-shadow: 1px 1px 4px gray;
+    padding: 0px;
+    height: auto;
+    border-radius: 4px 4px 20px 4px;
+}
+#register_div>form>#head{
+    margin-bottom: 6px;
+}
+#register_div>form>#head>h2{
+    background-color:rgb(0,90,255);
+    border-radius: 4px 4px 0px 0px;
+    color:whitesmoke;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    padding: 0.2em;
+}
+#register_div>form>#head>label{
+    font-size: 1.6em;
+    padding-left: 10px;
+    font-weight: 400;
+    color:rgb(60,60,60);
+    font-family: monospace;
+}
+#register_div>form>#btns>button{
+    border-width: 0px;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 1.3em;
+    margin:0.3em 0.8em;
+    padding: 0.4em;
+    color: white;
+    width: 40%;
+    border-radius: 0.1em;
+    background-color: rgb(0,90,255);
+}
+#register_div>form>#head>input{
+      height: 36px;
+    width: 96%;
+    border-width: 1px;
+    border-radius: 0.4em;
+    background-color: rgb(230,230,230);
+    font-size: auto;
+    padding: 0.1em;
+    margin-left: 2%;
+}
+#register_div>form>#head>textarea{
+    border-width: 1px;
+    border-radius: 3px;
+    margin-left: 10px;
+    width: 96%;
+    border-width: 1px;
+    height: 80px;
+    border-radius: 0.4em;
+    background-color: rgb(230,230,230);
+    font-size: auto;
+    padding: 0.1em;
+}
+#register_div>form>#head>input[type='radio']{
+     margin: 1px 1px 1px 14px;
+    width: 16px;
+}
+#selection{
+    border-width: 1px;
+    border-radius: 3px;
+    height: 36px;
+    margin-left: 10px;
+     width: 96%;
+    font-size: 1em;
+}
+#register_div>form>#btns{
+    margin: 0px;
+    padding: 4px 2px 0px 2px;
+    border-width: 1px;
+    border-top-style: groove;
+    height: auto;
+    text-align: left;
+}
+#register_div>form>#btns>button:hover{
+     background-color:rgb(40,200,25);
+}
+
+#success{
+	margin:0px;
+	padding:0px;
+	width:auto;
+	background-color:rgb(230,230,230);
+}
+#success>#head>h2{
+	background-color:rgb(0,90,255);
+    margin: auto 0px ;
+    padding: 4px;
+    border-radius: 4px 4px 0px 0px;
+    color:whitesmoke;
+    font-size: 20px;
+}
+#success>#head>label{
+	 font-size: 14px;
+    padding-left: 10px;
+    font-weight: bold;
+    color:rgb(60,60,60);
+    font-family: monospace;
+}	
+#success>#btns>button{
+    border-width: 0px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding-right: 8px;
+    font-family: monospace;
+    color:rgb(70,70,70);
+}
+#success>#btns{
+    margin: 0px;
+    padding: 4px 2px 0px 2px;
+    border-width: 1px;
+    border-top-style: groove;
+    height: auto;
+    text-align: left;
+}
+#success>#btns>button:hover{
+   color:rgb(40,200,25);
+}
+section{
+}
+@media screen and (max-width:1000px){
+header>h1{
+font-size: 5em;
+ padding: 0.3em;
+}
+section{
+    background: rgb(240,240,240);
+}
+#register_div{
+    margin-bottom: 40px;
+}
+#register_div>form>#head>h2{
+   margin-bottom: 30px;
+    font-size: 5em;
+    padding: 0.2em;
+}
+#register_div>form>#head>label{
+   font-size: 3.8em;
+    float: left;
+    padding:2%  2%;
+}
+#register_div>form>#btns>button{
+       font-size: 3.4em;
+    margin:0.3em 0.8em;
+    padding: 0.4em;
+    color: white;
+    width: 40%;
+    border-radius: 0.1em;
+    background-color: rgb(0,90,255);
+}
+#register_div>form>#head>textarea{
+     height: 300px;
+    width: 96%;
+    border-width: 3px;
+    font-size:40px;
+    border-radius: 0.4em;
+    background-color: rgb(230,230,230);
+    font-size: auto;
+    font-weight: bold;
+    padding: 0.1em;
+}
+#register_div>form>#head>input{
+      height: 100px;
+    width: 96%;
+    border-width: 3px;
+    font-size:40px;
+    border-radius: 0.4em;
+    background-color: rgb(230,230,230);
+    font-size: auto;
+    font-weight: bold;
+    padding: 0.1em;
+}
+#register_div>form>#head>input[type='radio']{
+     margin: 20px 20px 20px 60px;
+    width: 80px;
+}
+#selection{
+    width: 600px;
+    height: 80px;
+    font-weight: bold;
+    font-size: 2em;
+}
+#register_div>form>#btns{
+    padding-left: 20px;
+}
+}

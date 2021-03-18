@@ -1,0 +1,92 @@
+#msg_container{
+    background-color: white;
+    box-shadow: 1px 1px 4px gray;
+    margin: 10px 0px 10px 0px;
+    padding: 0px 0px 6px 0px;
+    border-radius: 8px;
+     height: auto;
+    text-align: left;
+}
+#msg_container>#head{
+	height: auto;
+}
+#msg_container>#head>h2{
+    margin: auto 0px ;
+    padding: 8px;
+    border-radius: 8px 8px 0px 0px;
+    font-size: 22px;
+     background-color:white;
+    color:rgb(0,90,255);
+     border-bottom: 1px solid rgb(190,190,190);
+}
+#msglabel{
+     font-size: 15px;
+    margin: 0px 10px 0px 10px;
+    padding: 0px 4px 0px 4px;
+    font-weight: 500;
+    color:rgb(50,50,50);
+    font-style:oblique;
+}
+#trForMsg{
+      border-bottom: 2px rgb(220,220,240) solid;
+}
+#msg_container>#head>table{
+   background-color: white;
+    width: 100%;
+    text-align: left;
+}
+#msgimg{
+  height: 60px;
+    width: 60px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0px;
+}
+#msgp{
+    font-weight:500;
+    margin: 0px;
+    padding: 0px;
+    color: lightgreen;
+    font-size: 14px;
+}
+#msgbutton{
+    border-width: 0px;
+    background-color: white;
+    font-weight: 600;
+    font-size: 16px;
+    color:rgb(0,90,255);
+}
+#msgbutton:hover{
+    color:rgb(40,200,25);
+} 
+
+@media screen and (max-width:1000px){
+ #msg_container{
+    min-height 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#msg_container>#head{
+        width: 100%;
+    }
+#msg_container>#head>h2{
+    font-size: 3.5em;
+}
+#msglabel{
+     font-size: 2.4em;
+    margin: 0px;
+    padding-right: 30px;
+}
+#msgimg{
+    padding: 20px;
+  height: 160px;
+    width: 160px;
+}
+#msgp{
+    font-size: 2.2em;
+}
+#msgbutton{
+    font-size: 2.4em;
+     padding-right:30px;
+}
+}

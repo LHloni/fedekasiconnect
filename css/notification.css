@@ -1,0 +1,70 @@
+#notifications{
+    
+}
+#notifications>#container>h2{
+    margin: auto 0px ;
+    padding: 8px;
+    border-radius: 4px 4px 0px 0px;
+    font-size: 22px;
+       border-bottom: 1px solid rgb(190,190,190);
+    color:rgb(0,90,255);
+    background-color: white;
+    text-align: left;
+     border-bottom: 1px solid rgb(190,190,190);
+} 
+#notifications>#container{
+    background-color: white;
+    width: 100%;
+}
+#notifications>#container>table{
+    width: 100%;
+}
+#tableR{
+    background-color: white;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 2px rgb(220,220,240) solid;
+}
+#nIcon{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px;
+    color:rgb(0,90,255);
+    text-shadow: 1px 1px 2px gray;
+    padding: 8px 2px 8px 10px;
+}
+#nLabel{
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color:rgb(40,40,40);
+    font-style:oblique;
+}
+#nBtn{
+    border-width: 0px;
+    background-color: white;
+    font-weight: 600;
+    font-size: 16px;
+    color:rgb(0,90,255);
+}
+#nBtn:hover{
+    color:rgb(40,200,25);
+} 
+
+@media screen and (max-width:1000px){
+ #notifications>#container>h2{
+    font-size: 3.6em;
+} 
+#nIcon{
+    font-size: 3.2em;
+    padding: 10px 10px;
+}
+#nLabel{
+    font-size: 2.4em;
+}
+#nBtn{
+    font-size: 2.5em;
+}
+}

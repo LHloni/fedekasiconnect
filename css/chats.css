@@ -1,0 +1,140 @@
+#chats{
+      background-color: rgb(255,255,255);
+    margin: 10px;
+    box-shadow: 1px 1px 4px gray;
+    height: 500px;
+    padding: 0px;
+    text-align: left;
+    border-radius: 4px;
+	height:inherit;
+}
+#chats>form{
+     background-color: rgb(255,255,255);
+    margin: 0px;
+    padding: 0px;
+    height: 530px;
+    border-radius: 8px;
+}
+#chats>form>#head{
+    overflow-y: scroll;
+    height: 460px;
+}
+#chats>form>#head>h2{
+    background-color:white;
+    margin: auto 0px ;
+    padding: 8px;
+    border-radius: 4px 4px 0px 0px;
+     border-bottom: 1px solid rgb(190,190,190);
+    color:rgb(0,90,255);
+    font-size: 20px;
+}
+#chat1{
+    background-color: rgb(100,100,122);
+    padding: 0px 20px 0px 0px;
+    width: 100%;
+    color:ghostwhite;
+    float: left;
+    margin: 2px 0px 2px 0px;
+}
+#chat1>p{
+    font-size: 11px;
+    padding: 1px;
+    margin: 0px;
+}
+#chat1>label{
+        font-size: 15px;
+    margin: 0px;
+    padding-left: 4px;
+    font-weight: 500;
+    font-style:oblique;
+}
+#chat2{
+    background-color: rgb(232,232,232);
+     padding: 0px 20px 0px 0px;
+     width: 100%;
+    float: right;
+    margin: 2px 0px 2px 0px;
+}
+#chat2>p{
+    font-size: 11px;
+    padding: 1px;
+    margin: 0px;
+}
+#chat2>label{
+     font-size: 15px;
+    margin: 0px;
+    padding-left: 4px;
+    font-weight: 500;
+    color:rgb(40,40,40);
+    font-style:oblique;
+}
+#chats>form>#btns>textarea{
+      border-width: 1px;
+    border-radius: 6px;
+    padding: 0px;
+    margin: 4px;
+    width: 340px;
+}
+#chats>form>#btns{
+    margin: 0px;
+    padding: 4px 2px 0px 2px;
+    border-width: 1px;
+    border-top-style: groove;
+    height: auto;
+    text-align: left;
+}
+#chats>form>#btns>button{
+    border-width: 0px;
+    background-color: white;
+    font-weight: 600;
+    font-size: 18px;
+    color:rgb(70,70,70);
+     border-width: 0px;
+    height: 30px;
+    text-align: left;
+     margin: 10px 0px;
+    padding: 4px 2px 0px 2px;
+}
+#chats>form>#btns>button:hover{
+    color:rgb(40,200,25);
+} 
+
+@media screen and (max-width:1000px){
+#chats{
+    height: 1200px;
+    margin: 40px 0px 40px 0px;
+}
+#chats>form{
+    height: 1200px;
+}
+#chats>form>#head{
+    height: 1040px;
+}
+#chats>form>#head>h2{
+    font-size: 50px;
+    padding: 10px 10px 10px 20px;
+}
+#chat1>p,#chat2>p{
+    line-height: 40px;
+    font-size: 32px;
+    padding: 4px 4px 4px 20px;
+}
+#chat1>label,#chat2>label{
+        font-size: 40px;
+    padding: 0px 0px 0px 20px;
+}
+#chats>form>#btns>textarea{
+    width: 80%;
+    height: 140px;
+    border-width: 3px;
+}
+#chats>form>#btns{
+    height: auto;
+    padding: 10px 10px 20px 20px;
+}
+#chats>form>#btns>button{
+    font-size: 50px;
+    height: auto;
+    padding: 20px;
+}
+}
